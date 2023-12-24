@@ -41,9 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'kingdoms',
-
-    'django_celery_results',
-    'celery',
 ]
 
 MIDDLEWARE = [
