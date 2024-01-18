@@ -9,7 +9,7 @@ import requests
 
 from concurrent import futures
 
-CALLBACK_URL = "http://0.0.0.0:8000/async/application"
+CALLBACK_URL = "http://192.168.21.127:8000/async/application"
 
 executor = futures.ThreadPoolExecutor(max_workers=1)
 
